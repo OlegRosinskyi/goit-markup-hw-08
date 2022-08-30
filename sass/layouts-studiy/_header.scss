@@ -1,0 +1,123 @@
+/* --------------HEADER ------------*/
+.header {
+  background-color: white;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  border-bottom: 1px solid #ececec;
+}
+.header__container {
+  display: flex;
+  align-items: center;
+}
+.header-nav {
+  display: flex;
+  align-items: center;
+}
+.header-list {
+  display: flex;
+}
+
+.header-list__item:not(:last-child) {
+  margin-right: 50px;
+}
+
+.header-link-log {
+  transition-duration: var(--animation-time);
+  transition-property: transform;
+  transition-timing-function: var(--animation-function);
+
+  display: inline-block;
+  margin-right: 93px;
+
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: #000000;
+  &:hover {
+    transform: scale(1.1);
+  }
+
+  & span {
+    color: #2196f3;
+  }
+}
+
+.header-list__link {
+  transition-duration: var(--animation-time);
+  transition-property: color;
+  transition-timing-function: var(--animation-function);
+
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--main-text-color);
+  /*color: var(--accent-color);*/
+  position: relative;
+
+  &::after {
+    content: "";
+    transition-duration: var(--animation-time);
+    transition-property: opacity;
+    transition-timing-function: var(--animation-function);
+
+    opacity: 0;
+    position: absolute;
+    left: 0px;
+    bottom: -28px;
+    display: inline-block;
+    background-color: var(--accent-color);
+    height: 4px;
+    width: 100%;
+    border-radius: 2px;
+  }
+  &:hover::after {
+    opacity: 1;
+  }
+  &:hover,
+  &:focus {
+    color: var(--accent-color);
+  }
+  &_activ {
+    color: var(--accent-color);
+    &::after {
+      opacity: 1;
+    }
+  }
+}
+
+.heade-list {
+  display: flex;
+  margin-left: auto;
+}
+.heade-list__item:not(:last-child) {
+  margin-right: 50px;
+}
+.heade-list__link-communication {
+  transition-duration: var(--animation-time);
+  transition-property: color;
+  transition-timing-function: var(--animation-function);
+
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--second-text-color);
+  display: flex;
+  align-items: center;
+  &:hover {
+    color: var(--accent-color);
+    /*fill: var(--accent-color);*/
+  }
+  &:focus {
+    color: var(--accent-color);
+  }
+}
+
+.heade-list__icon {
+  margin-right: 10px;
+  fill: currentColor;
+  /*outline: 2px solid red;*/
+}

@@ -1,0 +1,53 @@
+/* --------------SLOGAN ------------*/
+.slogan {
+  /*display: block;
+  width: 100%;*/
+  background-color: #c4c4c4;
+  background-image: linear-gradient(
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url(../images/FonSlogan.jpg);
+  padding-top: 200px;
+  padding-bottom: 200px;
+  background-repeat: no-repeat;
+  /*padding: 200px 455px 210px 455px;*/
+}
+.slogan-text {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  text-align: center;
+  color: #ffffff;
+  max-width: 626px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
+}
+.slogan-btn {
+  transition-duration: var(--animation-time);
+  transition-property: opacity;
+  transition-timing-function: var(--animation-function);
+
+  background: var(--second-btn-color);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.06em;
+  color: var(--main-btn-color);
+
+  display: block;
+  margin: 0 auto;
+  width: 216px;
+  height: 50px;
+
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  &:hover {
+    /*background: #b808fa;*/
+    opacity: 0.9;
+    /*cursor: pointer;*/
+  }
+}
