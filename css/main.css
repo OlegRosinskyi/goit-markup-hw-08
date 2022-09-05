@@ -275,12 +275,15 @@ body {
   border: 0px;
   padding: 0px;
   outline: 2px solid orange;
-  fill: #2196f3;
+  fill: #212121;
 }
 @media screen and (min-width: 768px) {
   .header-menu-open {
     display: none;
   }
+}
+.header-menu-open:hover {
+  fill: #2196f3;
 }
 
 .mobile__menu {
