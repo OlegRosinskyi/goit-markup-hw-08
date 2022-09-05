@@ -19,6 +19,10 @@
   line-height: 1.36;
   letter-spacing: 0.06em;
   text-transform: uppercase;
+  @include no-tablet {
+    font-size: 26px;
+    line-height: 1.62;
+  }
   text-align: center;
   color: #ffffff;
   max-width: 626px;

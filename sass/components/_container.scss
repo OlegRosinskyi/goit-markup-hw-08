@@ -1,8 +1,30 @@
 .container {
-  width: 1200px;
+  width: 100; /*1200px;*/
   padding-left: 15px;
   padding-right: 15px;
   margin-left: auto;
   margin-right: auto;
-  /*outline: 2px solid red;*/
+  @include mobile {
+    width: 480px;
+    outline: 2px solid red;
+  }
+  @include tablet {
+    width: 768px;
+    outline: 2px solid blue;
+  }
+  @include desktop {
+    width: 1200px;
+  }
+  outline: 2px solid green;
 }
+/*@media screen and (min-width: 480px) {
+  .container {
+    width: 480px;
+  }
+}
+@media screen and (min-width: 980px) {
+  .container {
+    width: 480px;
+  }
+}
+*/
