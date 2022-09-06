@@ -9,12 +9,12 @@
   }
 }
 @mixin dn-mobile {
-  @media screen and (max-width: 480px) {
+  @media screen and (max-width: 479px) {
     @content;
   }
 }
 @mixin no-mobile {
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 767px) {
     @content;
   }
 }

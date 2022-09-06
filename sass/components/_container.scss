@@ -9,6 +9,8 @@
     outline: 2px solid yellow;
     padding-left: 0px;
     padding-right: 0px;
+   /* margin-left: 0;
+    margin-right: 0;*/
   }
   @include mobile {
     width: 480px;
