@@ -102,17 +102,17 @@ body {
 }
 @media screen and (min-width: 320px) {
   .container {
-    width: 320px;
+    width: calc(100% - 30px); /*290px;*/
     outline: 2px solid yellow;
     padding-left: 0px;
     padding-right: 0px;
-    /* margin-left: 0;
-     margin-right: 0;*/
+    margin-left: 0;
+    margin-right: 0;
   }
 }
 @media screen and (min-width: 480px) {
   .container {
-    width: 480px;
+    /* width: calc(100% - 30px); /*430px;*/
     outline: 2px solid red;
   }
 }
@@ -136,10 +136,19 @@ body {
   padding-bottom: 24px;
   border-bottom: 1px solid #ececec;
 }
+@media screen and (max-width: 767px) {
+  .header {
+    padding: 10px 15px;
+    width: 100%;
+  }
+}
 
 .header__container {
   display: flex;
   align-items: center;
+  /* @include no-mobile {
+    margin: 0px;
+  }*/
 }
 
 .header-nav {
