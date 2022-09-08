@@ -6,17 +6,17 @@
   margin-right: auto;
 
   @include mobile-dn {
-    width: 320px; /*calc(100% - 30px); /*290px;*/
+    /*width: calc(100% - 30px); /*calc(100% - 30px); /*290px;*/
     outline: 2px solid yellow;
-    padding-left: 0px;
-    padding-right: 0px;
-    margin-left: 0;
-    margin-right: 0;
+    /* padding-left: 0px;
+    padding-right: 0px;*/
+    /* margin-left: 0;
+    margin-right: 0;*/
   }
-  @include mobile {
-    width: 480; /*calc(100% - 30px); /*430px;*/
+  /* @include mobile {
+    width: 480; /*calc(100% - 30px); /*430px;
     outline: 2px solid red;
-  }
+  }*/
   @include tablet {
     width: 768px;
     outline: 2px solid blue;

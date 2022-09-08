@@ -3,10 +3,11 @@
 .footer {
   background: #2f303a;
   padding: 60px 0px;
-  
 }
 .footer__container {
-  display: flex;
+  @include desktop {
+    display: flex;
+  }
 }
 .footer__left-part {
   margin-right: 70px;
@@ -169,6 +170,7 @@
 .footer-icon-send {
   /* margin-left: 10px;
   margin-right: 28px;*/
+  
   display: flex;
   align-items: center;
 }
