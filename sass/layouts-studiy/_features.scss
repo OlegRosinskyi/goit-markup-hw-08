@@ -28,12 +28,12 @@
       margin-right: 30px;
     }
     */
-    &:first-child {
+    /*&:first-child {
       margin-left: auto;
     }
     &:last-child {
       margin-right: auto;
-    }
+    }*/
   }
 
   &-icon {
@@ -70,6 +70,9 @@
     text-transform: uppercase;
     color: var(--main-text-color);
     margin-bottom: 10px;
+    @include no-mobile {
+      text-align: center;
+    }
   }
   &-text {
     font-weight: 400;

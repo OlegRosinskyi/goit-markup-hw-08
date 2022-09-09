@@ -11,9 +11,9 @@
     display: flex;
     flex-wrap: wrap;
     gap: 30px;
+
     &__item {
       width: 100%;
-
       height: auto;
       @include tablet {
         width: calc((100% - 60px) / 2);
@@ -94,3 +94,9 @@
     /*width: 322px;*/
   }
 }
+/*
+.product :first-child {
+  @include tablet {
+    padding-bottom: 56px;
+  }
+}*/
