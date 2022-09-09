@@ -263,12 +263,52 @@
           <ul class="promo-list list">
             <li class="promo-item">
               <div class="promo-box">
-                <img
+                <!-- =============================================-->
+                <picture>
+                  <!-- <source
+                  srcset="
+                     ./images/desktop/f1-desktop-img.jpg    1x,
+                      ./images/desktop/f1-desktop-img@2x.jpg 2x
+                  "
+                  media="(min-width:1200px)"
+                  type="image/webp"
+                /> -->
+                  <source
+                    srcset="
+                      ./images/desktop/f1-desktop-img.jpg    1x,
+                      ./images/desktop/f1-desktop-img@2x.jpg 2x
+                    "
+                    media="(min-width:1200px)"
+                  />
+                  <source
+                    srcset="
+                      ./images/desktop/f1-desktop-img.jpg    1x,
+                      ./images/desktop/f1-desktop-img@2x.jpg 2x
+                    "
+                    media="(min-width:768px)"
+                  />
+                  <source
+                    srcset="
+                      ./images/desktop/f1-desktop-img.jpg    1x,
+                      ./images/desktop/f1-desktop-img@2x.jpg 2x
+                    "
+                    media="(max-width:767px)"
+                  />
+                  <img
+                    src="./images/desktop/f1-desktop-img.jpg"
+                    alt="вёрстка"
+                    width="378"
+                    height="294"
+                  />
+                </picture>
+                <!-- <img
                   src="./images/img1-1.jpg"
                   alt="вёрстка"
-                  width="370"
+                  width="378"
+
                   class="promo-img"
-                />
+                />-->
+                <!-- ================================================  -->
                 <div class="promo-text-box">
                   <p class="promo-img-text">Десктопні додатки</p>
                 </div>
@@ -276,12 +316,37 @@
             </li>
             <li class="promo-item">
               <div class="promo-box">
-                <img
-                  src="./images/img2-1.jpg"
-                  alt="дизайн"
-                  width="370"
-                  class="promo-img"
-                />
+                <!-- =============================================-->
+                <picture>
+                  <source
+                    srcset="
+                      ./images/desktop/f2-desktop-img.jpg    1x,
+                      ./images/desktop/f2-desktop-img@2x.jpg 2x
+                    "
+                    media="(min-width:1200px)"
+                  />
+                  <source
+                    srcset="
+                      ./images/desktop/f2-tablet-img.jpg    1x,
+                      ./images/desktop/f2-tablet-img@2x.jpg 2x
+                    "
+                    media="(min-width:768px)"
+                  />
+                  <source
+                    srcset="
+                      ./images/desktop/f2-mobile-img.jpg    1x,
+                      ./images/desktop/f2-mobile-img@2x.jpg 2x
+                    "
+                    media="(max-width:767px)"
+                  />
+                  <img
+                    src="./images/desktop/f2-mobile-img.jpg"
+                    alt="цвет"
+                    width="378"
+                    height="294"
+                  />
+                </picture>
+                <!-- ================================================  -->
                 <div class="promo-text-box">
                   <p class="promo-img-text">Мобільні додатки</p>
                 </div>
@@ -289,12 +354,37 @@
             </li>
             <li class="promo-item">
               <div class="promo-box">
-                <img
-                  src="./images/img3-1.jpg"
-                  alt="цвет"
-                  width="370"
-                  class="promo-img"
-                />
+                <!-- =============================================-->
+                <picture>
+                  <source
+                    srcset="
+                      ./images/desktop/f3-desktop-img.jpg    1x,
+                      ./images/desktop/f3-desktop-img@2x.jpg 2x
+                    "
+                    media="(min-width:1200px)"
+                  />
+                  <source
+                    srcset="
+                      ./images/desktop/f3-desktop-img.jpg    1x,
+                      ./images/desktop/f3-desktop-img@2x.jpg 2x
+                    "
+                    media="(min-width:768px)"
+                  />
+                  <source
+                    srcset="
+                      ./images/desktop/f3-desktop-img.jpg    1x,
+                      ./images/desktop/f3-desktop-img@2x.jpg 2x
+                    "
+                    media="(max-width:767px)"
+                  />
+                  <img
+                    src="./images/desktop/f3-desktop-img.jpg"
+                    alt="дизайн"
+                    width="378"
+                    height="294"
+                  />
+                </picture>
+                <!-- ================================================  -->
 
                 <p class="promo-img-text">Дизайнерські рішення</p>
               </div>
@@ -307,12 +397,38 @@
           <h2 class="info-title">Наша команда</h2>
           <ul class="info-list list">
             <li class="info-item">
-              <img
-                src="./images/imgS1-1.jpg"
-                alt="фотографія Ігор Дем'яненко"
-                width="270"
-                class="info-img"
-              />
+              <!-- ================================================  -->
+              <picture class="info-img">
+                <source
+                  srcset="
+                    ./images/desktop/inf1-desktop-img.jpg    1x,
+                    ./images/desktop/inf1-desktop-img-2x.jpg 2x
+                  "
+                  media="(min-width:1200px)"
+                />
+                <source
+                  srcset="
+                    ./images/tablet/inf1-tab-img.jpg    1x,
+                    ./images/tablet/inf1-tab-img@2x.jpg 2x
+                  "
+                  media="(min-width:768px)"
+                />
+                <source
+                  srcset="
+                    ./images/mobile/inf1-mob-img.jpg    1x,
+                    ./images/mobile/inf1-mob-img@2x.jpg 2x
+                  "
+                  media="(max-width:767px)"
+                />
+                <img
+                  src="./images/mobile/inf1-mob-img.jpg "
+                  alt="фотографія Ігор Дем'яненко"
+                  width="450"
+                  height="460"
+                />
+              </picture>
+              <!-- ================================================  -->
+
               <h3 class="info-name">Ігор Дем'яненко</h3>
               <p class="info-profession">Product Designer</p>
               <ul class="info-soc list">
@@ -355,12 +471,38 @@
               </ul>
             </li>
             <li class="info-item">
-              <img
-                src="./images/imgS2-1.jpg"
-                alt="фотографія Ольга Рєпіна"
-                width="270"
-                class="info-img"
-              />
+              <!-- ================================================  -->
+              <picture class="info-img">
+                <source
+                  srcset="
+                    ./images/desktop/inf2-desktop-img.jpg    1x,
+                    ./images/desktop/inf2-desktop-img-2x.jpg 2x
+                  "
+                  media="(min-width:1200px)"
+                />
+                <source
+                  srcset="
+                    ./images/tablet/inf2-tab-img.jpg    1x,
+                    ./images/tablet/inf2-tab-img@2x.jpg 2x
+                  "
+                  media="(min-width:768px)"
+                />
+                <source
+                  srcset="
+                    ./images/mobile/inf2-mob-img.jpg    1x,
+                    ./images/mobile/inf2-mob-img@2x.jpg 2x
+                  "
+                  media="(max-width:767px)"
+                />
+                <img
+                  src="./images/mobile/inf2-mob-img.jpg"
+                  alt="фотографія Ольга Рєпіна"
+                  width="450"
+                  height="460"
+                />
+              </picture>
+              <!-- ================================================  -->
+
               <h3 class="info-name">Ольга Рєпіна</h3>
               <p class="info-profession">Frontend Developer</p>
               <ul class="info-soc list">
@@ -403,12 +545,38 @@
               </ul>
             </li>
             <li class="info-item">
-              <img
-                src="./images/imgS3-1.jpg"
-                alt="фотографія Микола Тарасов"
-                width="270"
-                class="info-img"
-              />
+              <!-- ================================================  -->
+              <picture class="info-img">
+                <source
+                  srcset="
+                    ./images/desktop/inf3-desktop-img.jpg    1x,
+                    ./images/desktop/inf3-desktop-img-2x.jpg 2x
+                  "
+                  media="(min-width:1200px)"
+                />
+                <source
+                  srcset="
+                    ./images/tablet/inf3-tab-img.jpg    1x,
+                    ./images/tablet/inf3-tab-img@2x.jpg 2x
+                  "
+                  media="(min-width:768px)"
+                />
+                <source
+                  srcset="
+                    ./images/mobile/inf3-mob-img.jpg    1x,
+                    ./images/mobile/inf3-mob-img@2x.jpg 2x
+                  "
+                  media="(max-width:767px)"
+                />
+                <img
+                  src="./images/mobile/inf3-mob-img.jpg"
+                  alt="фотографія Микола Тарасов"
+                  width="450"
+                  height="460"
+                />
+              </picture>
+              <!-- ================================================  -->
+
               <h3 class="info-name">Микола Тарасов</h3>
               <p class="info-profession">Marketing</p>
               <ul class="info-soc list">
@@ -451,12 +619,38 @@
               </ul>
             </li>
             <li class="info-item">
-              <img
-                src="./images/imgS4-1.jpg"
-                alt="фотографія Михайло Єрмаков"
-                width="270"
-                class="info-img"
-              />
+              <!-- ================================================  -->
+              <picture class="info-img">
+                <source
+                  srcset="
+                    ./images/desktop/inf4-desktop-img.jpg    1x,
+                    ./images/desktop/inf4-desktop-img-2x.jpg 2x
+                  "
+                  media="(min-width:1200px)"
+                />
+                <sourc4
+                  srcset="
+                    ./images/tablet/inf4-tab-img.jpg    1x,
+                    ./images/tablet/inf4-tab-img@2x.jpg 2x
+                  "
+                  media="(min-width:768px)"
+                />
+                <source
+                  srcset="
+                    ./images/mobile/inf4-mob-img.jpg    1x,
+                    ./images/mobile/inf4-mob-img@2x.jpg 2x
+                  "
+                  media="(max-width:767px)"
+                />
+                <img
+                  src="./images/mobile/inf4-mob-img.jpg"
+                  alt="фотографія Михайло Єрмаков"
+                  width="450"
+                  height="460"
+                />
+              </picture>
+              <!-- ================================================  -->
+
               <h3 class="info-name">Михайло Єрмаков</h3>
               <p class="info-profession">UI Designer</p>
               <ul class="info-soc list">
@@ -557,81 +751,83 @@
     </main>
     <footer class="footer">
       <div class="container footer__container">
-        <div class="footer-container-left-part-And-centr" >
-        <div class="footer__left-part">
-          <a
-            href="./index.html"
-            lang="en"
-            class="footer__link-log footer-log link"
-          >
-            <span>Web</span>Studio
-          </a>
+        <div class="footer-container-left-part-And-centr">
+          <div class="footer__left-part">
+            <a
+              href="./index.html"
+              lang="en"
+              class="footer__link-log footer-log link"
+            >
+              <span>Web</span>Studio
+            </a>
 
-          <address class="footer-address">
-            <!--<divclass="footer-addr"></div>-->
-            <ul class="footer-list list">
-              <li class="footer-list__item">
-                <a
-                  href="https://goo.gl/maps/Vcjv57qDKh7D1HHGA"
-                  class="footer-list__link-address link"
-                >
-                  г. Киев, пр-т Леси Украинки, 26
+            <address class="footer-address">
+              <!--<divclass="footer-addr"></div>-->
+              <ul class="footer-list list">
+                <li class="footer-list__item">
+                  <a
+                    href="https://goo.gl/maps/Vcjv57qDKh7D1HHGA"
+                    class="footer-list__link-address link"
+                  >
+                    г. Киев, пр-т Леси Украинки, 26
+                  </a>
+                </li>
+                <li class="footer-list__item">
+                  <a
+                    href="mailto:info@example.com"
+                    class="footer-list__link link"
+                  >
+                    info@example.com
+                  </a>
+                </li>
+                <li class="footer-list__item">
+                  <a href="tel:+380991111111" class="footer-list__link link">
+                    +38 099 111 11 11
+                  </a>
+                </li>
+              </ul>
+            </address>
+          </div>
+          <div class="footer-soc footer__footer-soc">
+            <p class="footer-soc__text">Приєднуйтесь</p>
+            <ul class="footer-soc-list list">
+              <li class="footer-soc-list__item">
+                <a href="" class="footer-soc-list__link link">
+                  <svg class="footer-soc-icon" width="20" height="20">
+                    <use
+                      href="./images/icons.svg.svg#icon-icon-instagram"
+                    ></use>
+                  </svg>
                 </a>
               </li>
-              <li class="footer-list__item">
-                <a
-                  href="mailto:info@example.com"
-                  class="footer-list__link link"
-                >
-                  info@example.com
+              <li class="footer-soc-item">
+                <a href="" class="footer-soc-list__link link">
+                  <svg class="footer-soc-icon" width="20" height="20">
+                    <use href="./images/icons.svg.svg#icon-icon-twitter"></use>
+                  </svg>
                 </a>
               </li>
-              <li class="footer-list__item">
-                <a href="tel:+380991111111" class="footer-list__link link">
-                  +38 099 111 11 11
+              <li class="footer-soc-item">
+                <a href="" class="footer-soc-list__link link">
+                  <svg class="footer-soc-icon" width="20" height="20">
+                    <use href="./images/icons.svg.svg#icon-icon-facebook"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="footer-soc-item">
+                <a href="" class="footer-soc-list__link link">
+                  <svg class="footer-soc-icon" width="20" height="20">
+                    <use href="./images/icons.svg.svg#icon-icon-linkedin"></use>
+                  </svg>
                 </a>
               </li>
             </ul>
-          </address>
+          </div>
         </div>
-        <div class="footer-soc footer__footer-soc">
-          <p class="footer-soc__text">Приєднуйтесь</p>
-          <ul class="footer-soc-list list">
-            <li class="footer-soc-list__item">
-              <a href="" class="footer-soc-list__link link">
-                <svg class="footer-soc-icon" width="20" height="20">
-                  <use href="./images/icons.svg.svg#icon-icon-instagram"></use>
-                </svg>
-              </a>
-            </li>
-            <li class="footer-soc-item">
-              <a href="" class="footer-soc-list__link link">
-                <svg class="footer-soc-icon" width="20" height="20">
-                  <use href="./images/icons.svg.svg#icon-icon-twitter"></use>
-                </svg>
-              </a>
-            </li>
-            <li class="footer-soc-item">
-              <a href="" class="footer-soc-list__link link">
-                <svg class="footer-soc-icon" width="20" height="20">
-                  <use href="./images/icons.svg.svg#icon-icon-facebook"></use>
-                </svg>
-              </a>
-            </li>
-            <li class="footer-soc-item">
-              <a href="" class="footer-soc-list__link link">
-                <svg class="footer-soc-icon" width="20" height="20">
-                  <use href="./images/icons.svg.svg#icon-icon-linkedin"></use>
-                </svg>
-              </a>
-            </li>
-          </ul>
-        </div>
-      </div>
         <div class="footer-form">
           <p class="footer-form__title">Підпишиться на розсилку</p>
           <form class="footer-form-box">
-            <label class="footer-form-label ">
+            <label class="footer-form-label">
               <input
                 type="email"
                 value=""
