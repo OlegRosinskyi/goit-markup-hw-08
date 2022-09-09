@@ -12,7 +12,16 @@
     flex-wrap: wrap;
     gap: 30px;
     &__item {
-      width: 370px;
+      width: 100%;
+
+      height: auto;
+      @include tablet {
+        width: calc((100% - 60px) / 2);
+      }
+      @include desktop {
+        width: calc((100% - 90px) / 3);
+      }
+      /*width: 370px;*/
       /*outline: 2px solid red;*/
     }
     &__link {
@@ -34,7 +43,7 @@
     }
     &__img {
       display: block;
-      max-width: 100%;
+      /*max-width: 100%;*/
       height: auto;
     }
     &__text {
