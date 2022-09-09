@@ -104,23 +104,21 @@ body {
   padding-right: 15px;
   margin-left: auto;
   margin-right: auto;
-}
-@media screen and (min-width: 320px) {
-  .container {
+  /*@include mobile-dn {
     /*width: calc(100% - 30px); /*calc(100% - 30px); /*290px;*/
-    outline: 2px solid yellow;
-  }
+  /*  outline: 2px solid yellow;
+  }*/
 }
 @media screen and (min-width: 768px) {
   .container {
     width: 768px;
-    outline: 2px solid blue;
+    /*outline: 2px solid blue;*/
   }
 }
 @media screen and (min-width: 1200px) {
   .container {
     width: 1200px;
-    outline: 2px solid green;
+    /*outline: 2px solid green;*/
   }
 }
 
@@ -290,7 +288,7 @@ body {
   background-color: #ffffff;
   /*border: 0px;*/
   /*padding: 0px;*/
-  outline: 2px solid orange;
+  /*outline: 2px solid orange;*/
   fill: #212121;
 }
 @media screen and (min-width: 768px) {
@@ -355,20 +353,10 @@ body {
 }
 
 .header-menu-close {
-  /* position: absolute;
-  top: 0px;
-  right: 0px;
-  transform: translateX(calc(0%));
-  width: 40px;
-  */
-  /*border: 0px;*/
   height: 40px;
-  outline: 2px solid orange;
+  /*outline: 2px solid orange;*/
   background-color: #ffffff;
   fill: #212121;
-  /* @include tablet {
-    display: none;
-  }*/
 }
 .header-menu-close:hover {
   fill: #2196f3;
@@ -379,9 +367,6 @@ body {
   margin-left: auto;
 }
 
-/*
-.menu-list__item {
-}*/
 .menu-list__link {
   display: inline-block;
   padding-top: 20px;
@@ -1412,7 +1397,7 @@ body {
 .form-icon-checbox {
   position: absolute;
   left: 0px;
-  outline: 2px solid red;
+  /*outline: 2px solid red;*/
   box-shadow: none;
   z-index: 0;
 }
@@ -1428,7 +1413,7 @@ body {
   display: block;
   position: absolute;
   left: 0px;
-  outline: 2px solid blue;
+  /*outline: 2px solid blue;*/
   background-color: #fff;
   box-shadow: none;
   z-index: 0;
