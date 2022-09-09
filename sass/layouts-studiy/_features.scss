@@ -10,8 +10,8 @@
     justify-content: center;
   }
 
-  &-item {
-    display: block;
+  /*&-item {
+    /display: block;
     &:not(:last-child) {
       margin-right: 30px;
     }
@@ -21,7 +21,7 @@
     &:last-child {
       margin-right: auto;
     }
-  }
+  }*/
 
   &-icon {
     /* display: block;*/
