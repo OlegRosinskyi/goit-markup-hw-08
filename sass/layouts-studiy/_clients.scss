@@ -14,8 +14,10 @@
   }
   &-list {
     display: flex;
-    justify-content: center;
+    /*justify-content: center;*/
+    flex-wrap: wrap;
     gap: 30px;
+    justify-content: center;
   }
 
   &-link {
@@ -25,6 +27,7 @@
 
     width: 170px;
     height: 92px;
+
     border: 1px solid #afb1b8;
 
     display: flex;

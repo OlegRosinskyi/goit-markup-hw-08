@@ -2,13 +2,16 @@
 .features {
   padding-top: 94px;
   padding-bottom: 94px;
-  
+
   &-list {
     display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
   }
 
   &-item {
-    width: 270px;
+    display: block;
     &:not(:last-child) {
       margin-right: 30px;
     }
@@ -30,6 +33,17 @@
     border-radius: 4px;
     width: 270px;
     height: 120px;
+    @include mobile {
+      width: 450px;
+    }
+
+    @include tablet {
+      width: 354px;
+    }
+    @include desktop {
+      width: 270;
+    }
+
     /*outline: 2px solid rgb(190, 16, 16);*/
     margin-bottom: 30px;
   }
