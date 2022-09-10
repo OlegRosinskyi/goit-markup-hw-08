@@ -5,10 +5,10 @@
   margin-left: auto;
   margin-right: auto;
 
-  /*@include mobile-dn {
-    /*width: calc(100% - 30px); /*calc(100% - 30px); /*290px;*/
-  /*  outline: 2px solid yellow;
-  }*/
+  @include mobile {
+    width: 480px;
+    /*  outline: 2px solid yellow;*/
+  }
 
   @include tablet {
     width: 768px;

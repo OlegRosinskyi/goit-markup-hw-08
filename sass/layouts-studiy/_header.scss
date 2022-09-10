@@ -118,7 +118,16 @@
   }
 }
 .heade-list__item:not(:last-child) {
-  margin-right: 50px;
+  margin-right: 0px;
+
+  @include tablet {
+    display: flex;
+    margin-bottom: 10px;
+  }
+  @include desktop {
+    margin-bottom: 0px;
+    margin-right: 50px;
+  }
 }
 .heade-list__link-communication {
   transition-duration: var(--animation-time);
