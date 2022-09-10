@@ -120,8 +120,13 @@
 }
 .footer-soc {
   display: block;
-  max-width: 206px;
-  padding-top: 12px;
+  /*max-width: 206px;*/
+  padding-top: 0px;
+  margin-top: 60px;
+  @include tablet {
+    margin-top: 0px;
+    padding-top: 12px;
+  }
 
   &__text {
     font-style: normal;
@@ -164,7 +169,12 @@
 
 .footer-form {
   /* max-width: 570px;*/
-  padding-top: 12px;
+  padding-top: 0px;
+  margin-top: 60px;
+  @include desktop {
+    padding-top: 12px;
+    margin-top: 0px;
+  }
 
   &__title {
     /*font-style: normal;*/
