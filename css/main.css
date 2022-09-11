@@ -470,7 +470,8 @@ body {
 
     background-image: url(../images/tablet/slogan-tab-img.jpg);
   }*/
-  background-position: center;
+  /*background-position: center;*/
+  background-size: cover;
   padding-top: 118px;
   padding-bottom: 118px;
   background-repeat: no-repeat;
