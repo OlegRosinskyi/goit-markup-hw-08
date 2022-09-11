@@ -1,10 +1,22 @@
 .filter {
-  padding: 60px 0px;
+  padding-top: 60px;
+  padding-bottom: 40px;
+  @include tablet {
+    padding-bottom: 30px;
+  }
+  @include desktop {
+    padding-top: 94px;
+    padding-bottom: 50px;
+  }
 
   &__list {
     display: flex;
     flex-wrap: wrap;
     gap: 8px;
+    row-gap: 15px;
+    @include tablet {
+      row-gap: 0px;
+    }
     margin-bottom: 40px;
 
     @include tablet {

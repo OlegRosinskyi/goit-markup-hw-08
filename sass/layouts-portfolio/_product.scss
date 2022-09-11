@@ -7,7 +7,7 @@
   border-right: 1px solid #eeeeee;
   border-bottom: 1px solid #eeeeee;
   @include tablet-desktop {
-    flex-grow: 2;
+    flex-grow: 1;
   }
 
   &-list {
@@ -35,7 +35,7 @@
       @include tablet-desktop {
         display: flex;
         flex-direction: column;
-        width: 100%;
+        height: 100%;
       }
 
       &:hover,

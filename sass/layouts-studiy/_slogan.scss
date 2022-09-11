@@ -1,7 +1,16 @@
 /* --------------SLOGAN ------------*/
 .slogan {
-  /*display: block;*/
-  max-width: 100%;
+  /* display: block;*/
+  /*max-width: 100%;*/
+
+  max-width: 1600px;
+  margin-left: auto;
+  margin-right: auto;
+  height: 400px;
+  @include desktop {
+    height: 600px;
+  }
+
   /*background-color: #c4c4c4;*/
   background: rgba(47, 48, 58, 0.4);
 
@@ -13,13 +22,13 @@
 
   /* background-image: url(../images/tablet/slogan-tab-img.jpg);*/
   background-image: url(../images/mobile/slogan-img.jpg);
-  @include mobile {
-    /*background-image: url(../images/mobile/slogan-img.jpg);*/
+  /*@include mobile {
+    
     background-image: url(../images/tablet/slogan-tab-img.jpg);
-  }
+  }*/
   @include tablet {
     /* background-image: url(../images/tablet/slogan-tab-img.jpg);*/
-    background-image: url(../images/desktop/slogan-desktop-img.jpg);
+    background-image: url(../images/tablet/slogan-tab-img.jpg);
   }
   @include desktop {
     background-image: url(../images/desktop/slogan-desktop-img.jpg);
