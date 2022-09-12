@@ -127,15 +127,30 @@ body {
 /* --------------HEADER ------------*/
 .header {
   background-color: white;
-  padding-top: 24px;
-  padding-bottom: 24px;
+  padding-top: 10px;
+  padding-bottom: 10px;
   border-bottom: 1px solid #ececec;
+  width: 100%;
 }
-@media screen and (max-width: 767px) {
+@media screen and (min-width: 480px) {
   .header {
     padding-top: 10px;
     padding-bottom: 10px;
-    width: 100%;
+    /* width: 100%;*/
+  }
+}
+@media screen and (min-width: 768px) {
+  .header {
+    padding-top: 21px;
+    padding-bottom: 21px;
+    /* width: 100%;*/
+  }
+}
+@media screen and (min-width: 1200px) {
+  .header {
+    padding-top: 24px;
+    padding-bottom: 24px;
+    /* width: 100%;*/
   }
 }
 
@@ -220,12 +235,21 @@ body {
   opacity: 0;
   position: absolute;
   left: 0px;
-  bottom: -28px;
   display: inline-block;
   background-color: var(--accent-color);
   height: 4px;
   width: 100%;
   border-radius: 2px;
+}
+@media screen and (min-width: 768px) {
+  .header-list__link::after {
+    bottom: -33px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .header-list__link::after {
+    bottom: -30px;
+  }
 }
 .header-list__link:hover::after {
   opacity: 1;
@@ -935,6 +959,7 @@ body {
 @media screen and (min-width: 1200px) {
   .footer__left-part {
     margin-right: 70px;
+    margin-left: 0px;
   }
 }
 
@@ -1521,6 +1546,7 @@ body {
   color: rgba(117, 117, 117, 0.5);
   /*margin-bottom: 20px;*/
   outline: none;
+  resize: none;
 }
 .modal-form-textarea:focus {
   border: 1px solid #2196f3;
